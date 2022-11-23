@@ -44,7 +44,7 @@ function NextCard() {
     },
     {
       number: '11',
-      details: 'MOVE ONE MAN FORWARD 11 SQUARES OR ANY ONE OF YOUR MEN MAY SWAP WITH AN OPPONENTS MEN'
+      details: 'MOVE ONE MAN FORWARD 11 SQUARES OR ANY ONE OF YOUR MEN MAY SWAP WITH AN OPPONENTS MAN'
     },
     {
       number: '12',
@@ -52,7 +52,7 @@ function NextCard() {
     },
     {
       number: 'SORRY',
-      details: 'MUST TAKE ONE MAN FROM YOUR START AND SWAP POSITIONS WITH ANY OPPONENTS MEN'
+      details: 'MUST TAKE ONE MAN FROM YOUR START AND SWAP POSITIONS WITH ANY OPPONENTS MAN'
     }
   ];
 
