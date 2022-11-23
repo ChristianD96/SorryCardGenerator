@@ -17,7 +17,7 @@
   padding-bottom: 20px;
   margin: 0;
   font-size: 500%;
-  font-family: 'Courier New';
+  font-family: 'Impact';
 }
 
 .box>p {
@@ -25,7 +25,7 @@
   padding-bottom: 30px;
   padding-left: 20px;
   padding-right: 20px;
-  font-family: 'Courier New';
+  font-family: 'Impact';
   height: 100px;
   margin: 0;
 }
@@ -36,13 +36,16 @@
   background-color: black;
   font-size: 30px;
   padding: 10px;
-  transition: ease-in-out 0.6s;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+  transition: ease-in-out 0.3s;
+  font-family: Impact;
 }
 
-.button:hover {
-  background-color: white;
-  color: black;
-  transition: ease-in-out 0.6s;
+
+@media (hover: hover) {
+
+  /* when hover is supported */
+  .button:hover {
+    color: black;
+    background: white;
+  }
 }

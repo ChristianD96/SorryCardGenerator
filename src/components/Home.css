@@ -26,10 +26,13 @@ body {
   color: white;
   text-decoration: none;
   padding: 1px;
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.3s;
 }
 
-.header-link:hover {
-  color: red;
-  transition: ease-in-out 0.5s;
+@media (hover: hover) {
+
+  /* when hover is supported */
+  .header-link:hover {
+    color: red;
+  }
 }
