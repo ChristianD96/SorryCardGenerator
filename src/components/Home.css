@@ -1,0 +1,35 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: black;
+}
+
+.container>h1 {
+  text-align: center;
+  color: white;
+  font-size: 75px;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.container>p {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.header-link {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 1px;
+  transition: ease-in-out 0.5s;
+}
+
+.header-link:hover {
+  color: red;
+  transition: ease-in-out 0.5s;
+}
