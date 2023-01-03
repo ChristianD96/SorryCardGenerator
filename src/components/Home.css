@@ -23,9 +23,8 @@ body {
 
 .header-link {
   font-size: 20px;
-  color: white;
+  color: rgb(68, 161, 237);
   text-decoration: none;
-  padding: 1px;
   transition: ease-in-out 0.3s;
 }
 
@@ -33,6 +32,6 @@ body {
 
   /* when hover is supported */
   .header-link:hover {
-    color: red;
+    color: white;
   }
 }
